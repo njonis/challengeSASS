@@ -1,0 +1,211 @@
+#immagenav{
+    width: 10%;
+    padding-top: 0.5em;
+}
+
+nav{
+    background-color: #3097d1;
+    color: #fff;
+    width: 100%;
+}
+
+.inputnav{
+    width: 180px;
+    display: inline;
+}
+
+.davnav {
+    width: 4rem;
+}
+
+#ulli li a{
+    text-decoration: none;
+    color:#fff;
+    background-color: #3097D1
+}
+
+#ulli li:hover{
+    font-weight: bolder;
+    background-color: #3097D1;
+}
+
+#articlenav{
+    display: inline;
+    float: right;
+    padding-top: 0.5em;
+    width: 30%;
+}
+
+#clochenav{
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
+@media (max-width: 1000px){
+    #immagenav{
+        display: none;
+    }
+    #clochenav{
+        margin-right: 0rem;
+        margin-left: 0rem;
+    }
+    .inputnav{
+        width: 100px;
+    }
+    li{
+        display: inline;
+        float: left;
+    }
+    #articlenav{
+        float: none;
+    }
+
+}
+
+
+img {
+  width: 100%;
+ }
+
+body{
+    background-color: #F5F8FA;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #1e3948;
+    padding-top: 70px;
+}
+
+main{
+    margin-top: 3em;
+}
+
+.section1, .section2, .section3{
+    background-color: #fff;
+    border : 1px solid #D6E2EA;
+    border-radius: 3%;
+    padding-bottom: 3rem;
+    margin-bottom: 4rem;
+}
+
+.article1{
+    background: url("/iceland.jpg");
+    background-size: cover;
+    height: 12rem;
+    border-radius: 3% 3% 0 0;
+}
+
+.article2{
+    margin-top: -5rem;
+    margin-bottom: 4rem;
+}
+
+.article2 span{
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 1em;
+}
+
+.article2 p{
+    color: #BA98A7;
+}
+
+#davcolonne1{
+    max-width: 100px;
+    border: 3px solid #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.pasdepaddingright{
+    padding-right: 0;
+}
+
+.article3{
+    border-right: solid 1px #1e3948;
+}
+
+.pgras{
+    font-weight: bold;
+}
+
+.section2, .section3{
+    padding-top: 1rem;
+}
+
+.section2 span, .section3 span{
+    margin-left: 1.5rem;
+}
+
+.section2 ul{
+    padding-left: 1.5rem;
+}
+
+.section2 li{
+    list-style-type: none;
+    color: #9DA9B0;
+    margin-top: 1rem;
+}
+
+.grillephoto1{
+    margin-right: 1.5rem;
+    margin-left: 0;
+    margin-top: 1rem;
+}
+
+.section4{
+    background-color: #fff;
+    padding: 1.5rem;
+    border : 1px solid #D6E2EA;
+    border-radius: 3%;
+}
+
+.section5, .section6, .section7,.section8, .section9{
+    background-color: #fff;
+    padding: 1.5rem;
+    border : 1px solid #D6E2EA;
+}
+
+.minutage{
+    color:#E9E7DF;
+    display: inline-block;
+    float: right;
+}
+
+.debug{
+    max-height: 153px;
+}
+
+.espacement, .section8, .section9{
+    margin-top: 2rem;
+}
+
+.section7 img{
+    margin-bottom: 1rem;
+}
+
+h6{
+    margin-top: 0;
+    font-weight: bold;
+}
+
+h6 span{
+    font-weight:100;
+}
+
+#findesection8{
+    padding: 1.5rem;
+    border : 1px solid #D6E2EA;
+}
+
+button{
+    color:#3097d1;
+    border: 1px solid #3097d1;
+    border-radius: 10%;
+    padding: 0.3em;
+    width: 10rem;
+}
+
+button:hover{
+    color:#fff;
+    background-color: #3097d1;
+}
